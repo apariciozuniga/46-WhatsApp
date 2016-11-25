@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<link rel="stylesheet" href="materialize/css/materialize.min.css">
+	  	<link rel="stylesheet" href="materialize/css/materialize.css">
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<link rel="shortcut icon" href="image/favicon.png">
+	  	<!-- Vincula los CSS que faltan -->
+	  	<link rel="stylesheet" href="css/main.css">
+	  	<link rel="stylesheet" href="materialize/fonts/roboto">
+	  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	</head>
+	<body class="grey lighten-3">
+		<!-- Inserta tu codigo aqui -->
+		<div class="container-fluid"><!-- aqui esta mi fondo verdeaqua -->
+			<nav>
+				<div class="nav-wrapper teal">
+				</div>
+			</nav> 
+			<div class="container">	
+				<div class="row">
+					<div class="col s12 m5 l5"><!-- barra de menu chat --> 
+						<ul class="collection hoverable">
+							<li class="collection-item avatar grey lighten-2 ">
+								<img src="image/bereyame.jpg" class=" hoverable z-depth-4 circle responsive-img foto_bere" alt="foto de berenice">
+								<i class="right material-icons">local_florist</i>
+								<i class="right material-icons">message</i>
+							</li>
+							<li class="collection-item avatar"><!-- aqui va mi input de barra de busqueda -->
+								<form class="input-field">
+									<input id="search" placeholder="Buscar o empezar un chat nuevo"  type="search" required>
+									<label for="search"><i class="material-icons">search</i></label>
+								</form>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/logocodeacademy.png" alt="" class="hoverable z-depth-2 circle responsive-img">
+								<span>Laboratoria Perú</span>
+								<p class="right align">14:25</p>
+								<p>Aldo: Dale dale!</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/raymi.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Raymi Saldomando</span>
+								<p class="right align">11:25</p>
+								<p>La clase va bien!</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/mariana.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Mariana costa</span>
+								<p class="right align">09:25</p>
+								<p>El panel de speakers esta buenazo</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/anamaria.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Ana Maria Martinez Franklin</span>
+								<p class="right align"> Ayer</p>
+								<p>Pues dale chamo!</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/rodulfo.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Rodulfo Prieto</span>
+								<p class="right align">Martes</p>
+								<p>¿Comó van las chicas</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/andrea.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Andrea Lamas</span>
+								<p class="right align">Lunes</p>
+								<p>Hoy me toca clase de canto, yee!</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/mariapaula.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Maria Paula Rivarola</span>
+								<p class="right align">13/01/2016</p>
+								<p>Wuju! esto me encanta de verdad!</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/katy.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Katy Sánchez</span>
+								<p class="right align">11/01/2016</p>
+								<p>No te preocupes, tengo el salón bajo control</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/aldo.jpg" alt="" class= "hoverable z-depth-3 circle responsive-img">
+								<span>Aldo Alfaro</span>
+								<p class="right align">03/01/2016</p>
+								<p>Van a comer?</p>
+							</li>
+							<li class="collection-item avatar">
+								<img src="image/liz.jpg" alt="" class="hoverable z-depth-3 circle responsive-img">
+								<span>Liz Rivas</span>
+								<p class="right align">09/09/2016</p>
+								<p>¿Qué onda Bere que vamos a comer? :)</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col  m7 l7 chat"><!-- area de mensajes escritos -->
+						<ul class="collection">
+							<li class="collection-item grey lighten-2">
+								<img src="image/logocodeacademy.png" alt="logo de Laboratoria" class="code z-depth-3 circle ">
+								<span class="">Laboratoria México</span><br>
+								<small>Ana Maria, Aldo, Gian, Mariana, Papu, Tú</small>
+								
+								
+								<!-- <div class=""> esto es para que se despliegue mi clip
+									<a class="btn-floating btn-large red fixed-action-btn horizontal click-to-toggle">
+										<i class="right material-icons">attachment</i>
+									</a>
+									<ul>
+										<li><a class="btn-floating purple"><i class="material-icons">library_music</i></a></li>
+										<li><a class="btn-floating pink"><i class="material-icons">photo_camera</i></a></li>
+										<li><a class="btn-floating blue"><i class="material-icons">note</i></a></li>
+										<li><a class="btn-floating "><i class="material-icons">account_circle</i></a></li>
+									</ul>
+								</div> -->
+							</li>
+						</ul>
+						<ul class="collection chico">
+							<li class="collection-item"><!-- mensajes que me envian -->
+								<span class="cyan-text">Andrea Lamas</span>
+								<p class="right">11:12</p>
+								<p>Chicos han visto el nuevo corte de Aldo?</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="pink-text">Mariana Costa</span>
+								<p class="right">11:13</p>
+								<p>¿Finalmente se corto?</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="teal-text">Maria Paola Rivarota</span>
+								<p class="right">11:13</p>
+								<p>jajaja Finalmente se corto!</p>
+								
+							</li>
+						</ul>
+						<ul class="collection"><!-- mensajes enviados yo :) -->
+							<li class="collection-item">
+								<span class="right">11:14</span>
+								<p>Antes parecia mufasa jajaja</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="right">11:18</span>
+								<p>Ahora si esta decente</p> 
+								
+							</li>
+						</ul>
+						<ul class="collection chico"><!-- mensajes que me envian los chicos -->
+							<li class="collection-item">
+								<span class="cyan-text">Andrea Lamas</span>
+								<p class="right">11:20</p>
+								<p >¿Por que se lo habra cortado</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="yellow-text">Aldo Alfaro</span>
+								<p class="right">11:25</p>
+								<p >Ya ya ya hacia mucho calor que mas</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="blue-text">Andrea Lamas</span>
+								<p class="right">11:30</p>
+								<p >Esta haciendo los pasos de Juan Diego</p>
+								
+							</li>
+							<li class="collection-item">
+								<span class="teal-text">Maria Paula Rivarola</span>
+								<p class="right">11:31</p>
+								<p >Nunca!! Juan Diego es unico</p>
+								
+							</li>
+						</ul>		
+					</div>
+				</div><!-- row -->			
+			</div><!--  aqui termina mi container -->
+		</div><!-- termina container-fluid -->        
+		<!-- JavaScript -->
+		<script scr="js/main.js"></script>
+		<script src="materialize/js/materialize.min.js"></script>
+		<script src="materialize/js/materialize.js"></script>
+	</body>
+</html>
