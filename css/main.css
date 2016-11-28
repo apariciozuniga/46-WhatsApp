@@ -1,6 +1,7 @@
 .chat{
 	background-image: url(../image/chat-panel-bg.png); 
 	background-size: 100% 100%;
+	margin-left: -3%;
 		
 
 }
@@ -10,5 +11,45 @@
 }
 .chico{
 	width:60% ;
+	/*margin-top: -3%;*/
 
+}
+.enviados{
+	width: 60%;
+	margin-left: 35%;
+	padding: -3%;
+}
+
+.microf{
+	display: inline-block;
+	margin-left: 95%;
+}
+li{
+	cursor: pointer;
+	height: 5%;
+}
+
+/*scroll*/
+#global {
+	height: 700px;
+	width: 400px;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+}
+.global{
+	height: 600px;
+	width: 550px;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+	
+
+
+
+}
+#mensajes {
+	height: auto;
+}
+
+@media screen and(max-width:650px){
+	
 }
